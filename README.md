@@ -36,5 +36,11 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-You may dowload the data and unzip into your work directory, or use the code provided in run_analysis.R file to download in R.
+## How it works?
+
+1) Download the data. Manually Dowload the data from the link above and unzip into your working directory, or use the code provided in run_analysis.R file to download through R. You will have a foldre named "UCI HAR Dataset" in your working directory.
+
+2) Set the parent folder of "UCI HAR Dataset" folder as your woking directory. Put run_analysis.R file in your working directory.
+
+3) Run source("run_analysis.R") in RStudio. Needed packages will be downloaded automatically. A new file ave_data.txt will be created in your working directory. And ave_data.txt contains the tidy data.
 
