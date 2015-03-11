@@ -42,5 +42,5 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 2) Set the parent folder of "UCI HAR Dataset" folder as your woking directory. Put run_analysis.R file in your working directory.
 
-3) Run source("run_analysis.R") in RStudio. Needed packages will be downloaded automatically. A new file ave_data.txt will be created in your working directory. And ave_data.txt contains the tidy data.
+3) Run     source("run_analysis.R")      in RStudio. Needed packages will be downloaded automatically. A new file ave_data.txt will be created in your working directory. And ave_data.txt contains the tidy data.
 
